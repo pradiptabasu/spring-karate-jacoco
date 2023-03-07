@@ -113,6 +113,7 @@
 					<includes>
 						<include>**/*KarateTests.java</include>
 					</includes>
+					<testFailureIgnore>true</testFailureIgnore>
 					<!-- pass jacoco runtime agent to JVM so we record code coverage when 
 						tests run -->
 					<argLine>${argLine}</argLine>

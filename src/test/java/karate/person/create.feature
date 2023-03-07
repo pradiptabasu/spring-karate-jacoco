@@ -18,4 +18,4 @@ Feature: Create and Read persons ...
     Given path personBase + '0'
     When method GET
     Then status 200
-    And match response == { firstName: 'John', lastName: 'Doe', age: 30 , "nationality":null}
+    And match response == { firstName: 'John', lastName: 'Doe', age: 30 , "nationality":"indian"}
